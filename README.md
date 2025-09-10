@@ -24,8 +24,8 @@ This study was conducted to:
 To assess concordance at multiple phylogenetic depths, we applied a pragmatic grouping that respects Pangolin hierarchy and Nextclade clades:
 
 - **Clade level (Nextclade):** Delta divided into **21A**, **21I**, **21J**.
-- **Level 1:** Pangolin lineages **without a suffix** (e.g., `AY.16`) → `Delta_21A_Level_1`.
-- **Level 2:** Pangolin lineages **with one dot** (e.g., `AY.16.1`) → `Delta_21A_Level_2`.
+- **Level 1:** Pangolin lineages **with single period** (e.g., `AY.16`) → `Delta_21A_Level_1`.
+- **Level 2:** Pangolin lineages **with double period** (e.g., `AY.16.1`) → `Delta_21A_Level_2`.
 
 *Example:*  
 `AY.16` → `Delta_21A_Level_1`  
