@@ -3,15 +3,13 @@
 # Correlation of SARS-CoV-2 Variants in Wastewater and Clinical Samples using Freyja
 
 This repository accompanies the manuscript:  
-**"Correlation assessment of SARS-CoV-2 variants and their subtypes present in clinical and wastewater samples in Oregon, USA (February 2021 – February 2022) using the Freyja bioinformatics approach"**  
-*Bhatia et al., 2025 (manuscript under submission)*
+**"Correlation assessment of SARS-CoV-2 variants and their subvariants present in clinical and wastewater samples in Oregon, USA (February 2021 – February 2022) using the Freyja bioinformatics approach"**  
 
 ## 📌 Why this study was done
 Clinical sequencing is essential for discovering and tracking variants, but it can be affected by testing availability, reporting delays, and sampling bias. **Wastewater surveillance** offers a complementary community-wide signal that captures infections from both symptomatic and asymptomatic individuals.
 
 This study was conducted to:
 - Evaluate whether wastewater sequencing analyzed with **Freyja** can resolve SARS-CoV-2 variants and subvariants with accuracy comparable to clinical sequencing.
-- Test whether wastewater can detect **variant trends earlier** than clinical data.
 - Compare Freyja’s performance to a prior **MLST-based** approach that had lower subvariant resolution.
 
 ## 🧪 Study Design (Summary)
@@ -34,10 +32,9 @@ To assess concordance at multiple phylogenetic depths, we applied a pragmatic gr
 > **Note:** “Level 1/Level 2” an **operational definition** introduced here to test whether wastewater–clinical correlations persist at deeper sublineage resolution.
 
 ## 📊 Key Findings (Highlights)
-- Strong wastewater–clinical agreement overall (**Spearman’s ρ = 0.878; R² = 0.945**).
+- Strong wastewater–clinical agreement overall (**Spearman’s ρ = 0.875; R² = 0.946**).
 - Freyja resolved **>200 Delta AY subvariants** across clades **21A/21I/21J**.
-- Subclade-level correlations remained high (**ρ = 0.890–0.962; R² = 0.714–0.978**).
-- Wastewater often showed **earlier** detection of emerging subvariants.
+- Subclade-level correlations remained high (**ρ = 0.892–0.959; R² = 0.716–0.979**).
 
 ## 🔄 Workflow
 
@@ -104,7 +101,6 @@ To assess concordance at multiple phylogenetic depths, we applied a pragmatic gr
 ## 📂 Repository Structure
 - `Notebooks/` – Jupyter notebooks for post-Freyja processing (variant grouping, correlations, plotting).
 - `README.md` 
-- *(datasets, figures, and manuscript withheld until journal decision)*
 
 ## 🚀 Usage
 These notebooks are a **research companion**. They demonstrate how to:
