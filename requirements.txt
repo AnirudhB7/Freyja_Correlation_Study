@@ -1,0 +1,28 @@
+# Freyja_Correlation_Study
+# Dependencies for Manuscript_Code_File_All_Variants.ipynb
+#
+# The notebook was developed and executed in Google Colab.
+# Versions below are those recorded at the time the manuscript
+# figures and tables were generated (Python 3.12.13).
+#
+# Most packages ship with Colab by default; `arch` does not and is
+# installed by the notebook at runtime. These pins are provided to
+# document the exact environment used, so that results can be
+# reproduced or any discrepancy traced to a version change.
+#
+# Install with:
+#     pip install -r requirements.txt
+
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.16.3
+matplotlib==3.10.0
+
+# Circular block bootstrap (CircularBlockBootstrap)
+arch==7.2.0
+
+# Excel read/write engine used by pandas
+openpyxl==3.1.5
+
+# TIFF handling in the figure compliance check
+pillow==11.1.0
